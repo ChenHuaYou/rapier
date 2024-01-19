@@ -52,7 +52,8 @@ vec_map = { version = "0.8", optional = true }
 instant = { version = "0.1", features = [ "now" ], optional = true }
 num-traits = "0.2"
 nalgebra = {git = "https://github.com/ChenHuaYou/nalgebra.git" }
-parry3d = {git = "https://github.com/ChenHuaYou/parry.git"}
+#parry3d = {git = "https://github.com/ChenHuaYou/parry.git"}
+parry3d = "0.13.5"
 simba = {git = "https://github.com/dimforge/simba.git" }
 approx = "0.5"
 rayon = { version = "1", optional = true }
